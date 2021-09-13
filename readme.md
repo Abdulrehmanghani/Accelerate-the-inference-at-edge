@@ -29,7 +29,7 @@ To install the openCV on raspberry Pi Use the following command
 sudo apt install python3-opencv
 ```
 ### Intel distribution of openvino toolkit
-Download from here in this project we are using 2021.3.394 versionof theopenvino 
+Open terminal and run the following command to download openvino in this project we are using 2021.3.394 version of theopenvino. 
 ```
 wget https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.3/  ** write the latest version
 ```
@@ -60,7 +60,7 @@ cd ~
 ```
 sh openvino/install_dependencies/install_NCS_udev_rules.sh
 ```
-Pre-optimized models are availble in the openvinio but in this project we are using object detection models from tensorflow model zoo.
+Pre-optimized models are availble in the openvinio model zoo but in this project we are using object detection models from tensorflow model zoo.
 ## Model Optimiztation
 
 Model optimization is done on the high end server or a GPU.
