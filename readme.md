@@ -84,5 +84,5 @@ python3 /opt/intel/openvino_2021.3.394/deployment_tools/model_optimizer/mo_tf.py
 ```
 Now at the to run inference on the edge goto Raspberry Pi plugin your NCS2 and initialize the openvino envoirment in the terminal which we already have configured at the start and run this command.
 ```
-python3 ain.py -m models/optimized_ssd_v2/saved_model -i test_video.mp4 -d MYRIAD -pt 0.6
+python3 main.py -m models/optimized_ssd_v2/saved_model -i CAM -d MYRIAD -pt 0.6
 ```
