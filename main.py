@@ -14,8 +14,8 @@ def build_argparser():
     :return: command line arguments
     """
     parser = ArgumentParser()
-    parser.add_argument("-vd", "--vd_model", required=True, type=str,
-                        help="Path to an xml file of the vehicle Detection model.")
+    parser.add_argument("-m", "--model", required=True, type=str,
+                        help="Path to an xml file of the object Detection model.")
    
                        
     parser.add_argument("-i", "--input", required=True, type=str,
