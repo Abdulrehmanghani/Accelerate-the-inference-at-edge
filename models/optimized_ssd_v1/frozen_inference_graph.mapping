@@ -1,0 +1,935 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="141" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="91" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_5_pointwise/weights/read/_136__cf__139" out_port_id="0"/>
+		<IR id="55" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/mul_1/Transpose16071_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="264" name="BoxPredictor_4/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_7_pointwise/weights/read/_124__cf__127" out_port_id="0"/>
+		<IR id="75" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/mul_1/Transpose16087_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/ClassPredictor/weights/read/_52__cf__55" out_port_id="0"/>
+		<IR id="231" name="BoxPredictor_0/ClassPredictor/Conv2D/Transpose16215_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/batchnorm/sub/_162__cf__165" out_port_id="0"/>
+		<IR id="12" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/batchnorm/sub/_162__cf__165/EltwiseUnsqueeze13288_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Postprocessor/convert_scores" out_port_id="0"/>
+		<IR id="282" name="Postprocessor/convert_scores" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="256" name="BoxPredictor_3/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="76" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6" out_port_id="0"/>
+		<IR id="147" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="11" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6" out_port_id="0"/>
+		<IR id="79" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/Relu6" out_port_id="0"/>
+		<IR id="214" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_9_pointwise/weights/read/_112__cf__115" out_port_id="0"/>
+		<IR id="95" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/mul_1/Transpose16103_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="43" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6" out_port_id="0"/>
+		<IR id="104" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_2_depthwise/depthwise_weights/read/_157__cf__160" out_port_id="0"/>
+		<IR id="20" name="2187221875_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/ClassPredictor/biases/read/_51__cf__54" out_port_id="0"/>
+		<IR id="233" name="BoxPredictor_0/ClassPredictor/biases/read/_51__cf__54/EltwiseUnsqueeze13504_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="248" name="BoxPredictor_2/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_11_depthwise/depthwise_weights/read/_103__cf__106" out_port_id="0"/>
+		<IR id="110" name="2185621859_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/BoxEncodingPredictor/biases/read/_171__cf__174" out_port_id="0"/>
+		<IR id="186" name="BoxPredictor_3/BoxEncodingPredictor/biases/read/_171__cf__174/ReshapeBack/EltwiseUnsqueeze13488_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_3_depthwise/depthwise_weights/read/_151__cf__154" out_port_id="0"/>
+		<IR id="30" name="2182821831_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_6_depthwise/depthwise_weights/read/_133__cf__136" out_port_id="0"/>
+		<IR id="60" name="2184021843_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="162" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="concat" out_port_id="0"/>
+		<IR id="228" name="concat" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="Preprocessor/sub/y" out_port_id="0"/>
+		<IR id="3" name="Preprocessor/sub/y/EltwiseUnsqueeze13524_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="28" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="180" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="detection_boxes" out_port_id="0"/>
+		<IR id="367" name="DetectionOutput" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="121" name="BoxPredictor_0/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="164" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/ClassPredictor/biases/read/_49__cf__52" out_port_id="0"/>
+		<IR id="241" name="BoxPredictor_1/ClassPredictor/biases/read/_49__cf__52/EltwiseUnsqueeze13472_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/sub/_135__cf__138" out_port_id="0"/>
+		<IR id="57" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/sub/_135__cf__138/EltwiseUnsqueeze13340_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="131" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/weights/read/_85__cf__88" out_port_id="0"/>
+		<IR id="156" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/mul_1/Transpose16139_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/Reshape" out_port_id="0"/>
+		<IR id="127" name="BoxPredictor_0/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/weights/read/_64__cf__67" out_port_id="0"/>
+		<IR id="215" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/mul_1/Transpose16167_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="216" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="58" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/sub/_159__cf__162" out_port_id="0"/>
+		<IR id="17" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/sub/_159__cf__162/EltwiseUnsqueeze13292_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_12_pointwise/weights/read/_94__cf__97" out_port_id="0"/>
+		<IR id="133" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/mul_1/Transpose16127_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6" out_port_id="0"/>
+		<IR id="74" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_3_pointwise/weights/read/_148__cf__151" out_port_id="0"/>
+		<IR id="35" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/mul_1/Transpose16055_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="68" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_12_depthwise/depthwise_weights/read/_97__cf__100" out_port_id="0"/>
+		<IR id="128" name="2183621839_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="144" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/BoxEncodingPredictor/weights/read/_168__cf__171" out_port_id="0"/>
+		<IR id="220" name="BoxPredictor_5/BoxEncodingPredictor/Conv2D/Transpose16171_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/sub/_123__cf__126" out_port_id="0"/>
+		<IR id="77" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/sub/_123__cf__126/EltwiseUnsqueeze13364_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/Reshape_1" out_port_id="0"/>
+		<IR id="270" name="BoxPredictor_4/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="193" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="41" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6" out_port_id="0"/>
+		<IR id="142" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_8_depthwise/depthwise_weights/read/_121__cf__124" out_port_id="0"/>
+		<IR id="80" name="2182421827_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="116" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/batchnorm/sub/_90__cf__93" out_port_id="0"/>
+		<IR id="140" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/batchnorm/sub/_90__cf__93/EltwiseUnsqueeze13432_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6" out_port_id="0"/>
+		<IR id="44" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="71" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/weights/read/_82__cf__85" out_port_id="0"/>
+		<IR id="161" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/mul_1/Transpose16143_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/batchnorm/sub/_102__cf__105" out_port_id="0"/>
+		<IR id="112" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/batchnorm/sub/_102__cf__105/EltwiseUnsqueeze13408_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="78" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/BoxEncodingPredictor/biases/read/_175__cf__178" out_port_id="0"/>
+		<IR id="150" name="BoxPredictor_1/BoxEncodingPredictor/biases/read/_175__cf__178/ReshapeBack/EltwiseUnsqueeze13492_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/sub/_153__cf__156" out_port_id="0"/>
+		<IR id="27" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/sub/_153__cf__156/EltwiseUnsqueeze13304_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_5_depthwise/depthwise_weights/read/_139__cf__142" out_port_id="0"/>
+		<IR id="50" name="2185221855_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/ClassPredictor/biases/read/_43__cf__46" out_port_id="0"/>
+		<IR id="265" name="BoxPredictor_4/ClassPredictor/biases/read/_43__cf__46/EltwiseUnsqueeze13496_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6" out_port_id="0"/>
+		<IR id="54" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/Relu6" out_port_id="0"/>
+		<IR id="183" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="175" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/sub/_105__cf__108" out_port_id="0"/>
+		<IR id="107" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/sub/_105__cf__108/EltwiseUnsqueeze13400_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_1_depthwise/depthwise_weights/read/_163__cf__166" out_port_id="0"/>
+		<IR id="10" name="2186821871_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6" out_port_id="0"/>
+		<IR id="64" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/weights/read/_76__cf__79" out_port_id="0"/>
+		<IR id="179" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/mul_1/Transpose16151_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_4_depthwise/depthwise_weights/read/_145__cf__148" out_port_id="0"/>
+		<IR id="40" name="2186421867_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="73" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/BoxEncodingPredictor/weights/read/_176__cf__179" out_port_id="0"/>
+		<IR id="148" name="BoxPredictor_1/BoxEncodingPredictor/Conv2D/Transpose16203_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6" out_port_id="0"/>
+		<IR id="49" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/Reshape" out_port_id="0"/>
+		<IR id="227" name="BoxPredictor_5/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="198" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/batchnorm/sub/_120__cf__123" out_port_id="0"/>
+		<IR id="82" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/batchnorm/sub/_120__cf__123/EltwiseUnsqueeze13372_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="108" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_depthwise/depthwise_weights/read/_91__cf__94" out_port_id="0"/>
+		<IR id="138" name="2186021863_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_10_pointwise/weights/read/_106__cf__109" out_port_id="0"/>
+		<IR id="105" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/mul_1/Transpose16111_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="61" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Preprocessor/mul/x" out_port_id="0"/>
+		<IR id="0" name="Preprocessor/mul/x/EltwiseUnsqueeze13276_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="136" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="134" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/BoxEncodingPredictor/biases/read/_177__cf__180" out_port_id="0"/>
+		<IR id="122" name="BoxPredictor_0/BoxEncodingPredictor/biases/read/_177__cf__180/ReshapeBack/EltwiseUnsqueeze13516_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6" out_port_id="0"/>
+		<IR id="114" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/batchnorm/sub/_144__cf__147" out_port_id="0"/>
+		<IR id="42" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/batchnorm/sub/_144__cf__147/EltwiseUnsqueeze13324_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/Relu6" out_port_id="0"/>
+		<IR id="201" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/sub/_66__cf__69" out_port_id="0"/>
+		<IR id="212" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/sub/_66__cf__69/EltwiseUnsqueeze13464_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="88" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/sub/_69__cf__72" out_port_id="0"/>
+		<IR id="199" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/sub/_69__cf__72/EltwiseUnsqueeze13460_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="200" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/batchnorm/sub/_132__cf__135" out_port_id="0"/>
+		<IR id="62" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/batchnorm/sub/_132__cf__135/EltwiseUnsqueeze13348_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/ClassPredictor/weights/read/_50__cf__53" out_port_id="0"/>
+		<IR id="239" name="BoxPredictor_1/ClassPredictor/Conv2D/Transpose16207_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6" out_port_id="0"/>
+		<IR id="132" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/batchnorm/sub/_108__cf__111" out_port_id="0"/>
+		<IR id="102" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/batchnorm/sub/_108__cf__111/EltwiseUnsqueeze13396_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/sub/_111__cf__114" out_port_id="0"/>
+		<IR id="97" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/sub/_111__cf__114/EltwiseUnsqueeze13388_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/BoxEncodingPredictor/weights/read/_174__cf__177" out_port_id="0"/>
+		<IR id="166" name="BoxPredictor_2/BoxEncodingPredictor/Conv2D/Transpose16195_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/ClassPredictor/biases/read/_47__cf__50" out_port_id="0"/>
+		<IR id="249" name="BoxPredictor_2/ClassPredictor/biases/read/_47__cf__50/EltwiseUnsqueeze13508_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="96" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6" out_port_id="0"/>
+		<IR id="34" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="213" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/Reshape_1" out_port_id="0"/>
+		<IR id="262" name="BoxPredictor_3/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Postprocessor/scale_logits" out_port_id="0"/>
+		<IR id="281" name="Postprocessor/scale_logits" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="concat_1" out_port_id="0"/>
+		<IR id="279" name="concat_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="240" name="BoxPredictor_1/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6" out_port_id="0"/>
+		<IR id="109" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6" out_port_id="0"/>
+		<IR id="89" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6" out_port_id="0"/>
+		<IR id="24" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_9_depthwise/depthwise_weights/read/_115__cf__118" out_port_id="0"/>
+		<IR id="90" name="2183221835_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/weights/read/_67__cf__70" out_port_id="0"/>
+		<IR id="210" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/mul_1/Transpose16163_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_4_pointwise/weights/read/_142__cf__145" out_port_id="0"/>
+		<IR id="45" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/mul_1/Transpose16063_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/ClassPredictor/weights/read/_44__cf__47" out_port_id="0"/>
+		<IR id="263" name="BoxPredictor_4/ClassPredictor/Conv2D/Transpose16183_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="8" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="129" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise/weights/read/_88__cf__91" out_port_id="0"/>
+		<IR id="143" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/mul_1/Transpose16135_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="159" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6" out_port_id="0"/>
+		<IR id="19" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6" out_port_id="0"/>
+		<IR id="99" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="23" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="93" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/Relu6" out_port_id="0"/>
+		<IR id="219" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="36" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Preprocessor/mul" out_port_id="0"/>
+		<IR id="2" name="Preprocessor/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/BoxEncodingPredictor/biases/read/_169__cf__172" out_port_id="0"/>
+		<IR id="204" name="BoxPredictor_4/BoxEncodingPredictor/biases/read/_169__cf__172/ReshapeBack/EltwiseUnsqueeze13512_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6" out_port_id="0"/>
+		<IR id="84" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6" out_port_id="0"/>
+		<IR id="119" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_10_depthwise/depthwise_weights/read/_109__cf__112" out_port_id="0"/>
+		<IR id="100" name="2184821851_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/ClassPredictor/biases/read/_41__cf__44" out_port_id="0"/>
+		<IR id="273" name="BoxPredictor_5/ClassPredictor/biases/read/_41__cf__44/EltwiseUnsqueeze13476_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6" out_port_id="0"/>
+		<IR id="94" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6" out_port_id="0"/>
+		<IR id="14" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="113" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="81" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="111" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_2_pointwise/weights/read/_154__cf__157" out_port_id="0"/>
+		<IR id="25" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/mul_1/Transpose16047_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="185" name="BoxPredictor_3/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/sub/_117__cf__120" out_port_id="0"/>
+		<IR id="87" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/sub/_117__cf__120/EltwiseUnsqueeze13376_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/BoxEncodingPredictor/biases/read/_173__cf__176" out_port_id="0"/>
+		<IR id="168" name="BoxPredictor_2/BoxEncodingPredictor/biases/read/_173__cf__176/ReshapeBack/EltwiseUnsqueeze13480_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="195" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="83" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="48" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="63" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/batchnorm/sub/_126__cf__129" out_port_id="0"/>
+		<IR id="72" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/batchnorm/sub/_126__cf__129/EltwiseUnsqueeze13360_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/sub/_63__cf__66" out_port_id="0"/>
+		<IR id="217" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/sub/_63__cf__66/EltwiseUnsqueeze13468_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/batchnorm/sub/_96__cf__99" out_port_id="0"/>
+		<IR id="130" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/batchnorm/sub/_96__cf__99/EltwiseUnsqueeze13420_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="13" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="146" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="46" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="139" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="272" name="BoxPredictor_5/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/Reshape" out_port_id="0"/>
+		<IR id="191" name="BoxPredictor_3/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/Relu6" out_port_id="0"/>
+		<IR id="178" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="149" name="BoxPredictor_1/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="167" name="BoxPredictor_2/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="218" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6" out_port_id="0"/>
+		<IR id="137" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="18" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="106" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/Reshape_1" out_port_id="0"/>
+		<IR id="254" name="BoxPredictor_2/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/Reshape_1" out_port_id="0"/>
+		<IR id="246" name="BoxPredictor_1/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="86" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="53" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_11_pointwise/weights/read/_100__cf__103" out_port_id="0"/>
+		<IR id="115" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/mul_1/Transpose16119_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/ClassPredictor/biases/read/_45__cf__48" out_port_id="0"/>
+		<IR id="257" name="BoxPredictor_3/ClassPredictor/biases/read/_45__cf__48/EltwiseUnsqueeze13500_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/ClassPredictor/Conv2D" out_port_id="0"/>
+		<IR id="232" name="BoxPredictor_0/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/batchnorm/sub/_150__cf__153" out_port_id="0"/>
+		<IR id="32" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/batchnorm/sub/_150__cf__153/EltwiseUnsqueeze13312_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/ClassPredictor/weights/read/_48__cf__51" out_port_id="0"/>
+		<IR id="247" name="BoxPredictor_2/ClassPredictor/Conv2D/Transpose16199_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/Relu6" out_port_id="0"/>
+		<IR id="9" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_6_pointwise/weights/read/_130__cf__133" out_port_id="0"/>
+		<IR id="65" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/mul_1/Transpose16079_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/batchnorm/sub/_114__cf__117" out_port_id="0"/>
+		<IR id="92" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/batchnorm/sub/_114__cf__117/EltwiseUnsqueeze13384_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Preprocessor/sub" out_port_id="0"/>
+		<IR id="4" name="Preprocessor/sub" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/Relu6" out_port_id="0"/>
+		<IR id="196" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/sub/_129__cf__132" out_port_id="0"/>
+		<IR id="67" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/sub/_129__cf__132/EltwiseUnsqueeze13352_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/sub/_165__cf__168" out_port_id="0"/>
+		<IR id="7" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/sub/_165__cf__168/EltwiseUnsqueeze13280_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/batchnorm/sub/_156__cf__159" out_port_id="0"/>
+		<IR id="22" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/batchnorm/sub/_156__cf__159/EltwiseUnsqueeze13300_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6" out_port_id="0"/>
+		<IR id="29" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/sub/_84__cf__87" out_port_id="0"/>
+		<IR id="158" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/sub/_84__cf__87/EltwiseUnsqueeze13440_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="157" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/sub/_78__cf__81" out_port_id="0"/>
+		<IR id="176" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/sub/_78__cf__81/EltwiseUnsqueeze13448_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="6" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/Relu6" out_port_id="0"/>
+		<IR id="165" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6" out_port_id="0"/>
+		<IR id="39" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/BoxEncodingPredictor/biases/read/_167__cf__170" out_port_id="0"/>
+		<IR id="222" name="BoxPredictor_5/BoxEncodingPredictor/biases/read/_167__cf__170/ReshapeBack/EltwiseUnsqueeze13484_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="98" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/weights/read/_79__cf__82" out_port_id="0"/>
+		<IR id="174" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/mul_1/Transpose16147_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="56" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="51" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/sub/_72__cf__75" out_port_id="0"/>
+		<IR id="194" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/sub/_72__cf__75/EltwiseUnsqueeze13456_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/Reshape_1" out_port_id="0"/>
+		<IR id="238" name="BoxPredictor_0/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_0/weights/read/_166__cf__169" out_port_id="0"/>
+		<IR id="5" name="image_tensor/reverse_input_channels/Concat21205_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/Reshape" out_port_id="0"/>
+		<IR id="209" name="BoxPredictor_4/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/ClassPredictor/weights/read/_42__cf__45" out_port_id="0"/>
+		<IR id="271" name="BoxPredictor_5/ClassPredictor/Conv2D/Transpose16175_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/batchnorm/sub/_138__cf__141" out_port_id="0"/>
+		<IR id="52" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/batchnorm/sub/_138__cf__141/EltwiseUnsqueeze13336_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="118" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="33" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="203" name="BoxPredictor_4/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="66" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="177" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/sub/_99__cf__102" out_port_id="0"/>
+		<IR id="117" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/batchnorm/sub/_99__cf__102/EltwiseUnsqueeze13412_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="21" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/weights/read/_70__cf__73" out_port_id="0"/>
+		<IR id="197" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/batchnorm/mul_1/Transpose16159_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6" out_port_id="0"/>
+		<IR id="69" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="182" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/ClassPredictor/weights/read/_46__cf__49" out_port_id="0"/>
+		<IR id="255" name="BoxPredictor_3/ClassPredictor/Conv2D/Transpose16191_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/sub/_147__cf__150" out_port_id="0"/>
+		<IR id="37" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/sub/_147__cf__150/EltwiseUnsqueeze13316_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_8_pointwise/weights/read/_118__cf__121" out_port_id="0"/>
+		<IR id="85" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/batchnorm/mul_1/Transpose16095_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/sub/_75__cf__78" out_port_id="0"/>
+		<IR id="181" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/batchnorm/sub/_75__cf__78/EltwiseUnsqueeze13452_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="26" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="211" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/sub/_93__cf__96" out_port_id="0"/>
+		<IR id="135" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/batchnorm/sub/_93__cf__96/EltwiseUnsqueeze13424_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6" out_port_id="0"/>
+		<IR id="59" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="103" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/add_1" out_port_id="0"/>
+		<IR id="38" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="16" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/Reshape_1" out_port_id="0"/>
+		<IR id="278" name="BoxPredictor_5/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/Relu6" out_port_id="0"/>
+		<IR id="160" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/BoxEncodingPredictor/weights/read/_178__cf__181" out_port_id="0"/>
+		<IR id="120" name="BoxPredictor_0/BoxEncodingPredictor/Conv2D/Transpose16211_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_1_pointwise/weights/read/_160__cf__163" out_port_id="0"/>
+		<IR id="15" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/batchnorm/mul_1/Transpose16039_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="31" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="101" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/Reshape" out_port_id="0"/>
+		<IR id="155" name="BoxPredictor_1/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_7_depthwise/depthwise_weights/read/_127__cf__130" out_port_id="0"/>
+		<IR id="70" name="2184421847_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/BoxEncodingPredictor/weights/read/_170__cf__173" out_port_id="0"/>
+		<IR id="202" name="BoxPredictor_4/BoxEncodingPredictor/Conv2D/Transpose16179_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/weights/read/_73__cf__76" out_port_id="0"/>
+		<IR id="192" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/batchnorm/mul_1/Transpose16155_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Postprocessor/scale_logits/y" out_port_id="0"/>
+		<IR id="280" name="Postprocessor/scale_logits/y/EltwiseUnsqueeze13520_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/sub/_81__cf__84" out_port_id="0"/>
+		<IR id="163" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/batchnorm/sub/_81__cf__84/EltwiseUnsqueeze13444_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/BoxEncodingPredictor/weights/read/_172__cf__175" out_port_id="0"/>
+		<IR id="184" name="BoxPredictor_3/BoxEncodingPredictor/Conv2D/Transpose16187_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/sub/_87__cf__90" out_port_id="0"/>
+		<IR id="145" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/batchnorm/sub/_87__cf__90/EltwiseUnsqueeze13436_const" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/BoxEncodingPredictor/Conv2D" out_port_id="0"/>
+		<IR id="221" name="BoxPredictor_5/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/Reshape" out_port_id="0"/>
+		<IR id="173" name="BoxPredictor_2/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/sub/_141__cf__144" out_port_id="0"/>
+		<IR id="47" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/batchnorm/sub/_141__cf__144/EltwiseUnsqueeze13328_const" out_port_id="0"/>
+	</map>
+</mapping>

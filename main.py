@@ -6,7 +6,7 @@ import logging as log
 from argparse import ArgumentParser
 from input_feeder import InputFeeder
 
-from vehicle_detection import VehicleDetection
+from object_detection import objectDetection
 
 def build_argparser():
     """
@@ -64,7 +64,7 @@ def infer_on_stream(args):
     # Initialise the classes
     
     try:
-        vehicle_detection = VehicleDetection(args.vd_model, args.device)
+        object_detection = objectDetection(args.model, args.device)
         
     except:
         log.error('Please enter a valid model file address')    
@@ -75,7 +75,7 @@ def infer_on_stream(args):
     start_load = time.time()
     
     # Load the models 
-    vehicle_detection.load_model()
+    object_detection.load_model()
     log.debug("Models loaded: time: {:.3f} ms".format((time.time() - start_load) * 1000))
     end_load = time.time() -  start_load 
     
@@ -97,7 +97,7 @@ def infer_on_stream(args):
         frame_count += 1
         try:
             # Run inference on the models     
-            vehicle = vehicle_detection.predict(frame)
+            box = object_detection.predict(frame)
             ## If no face detected move back to the top of the loop
                                     
             
@@ -111,7 +111,7 @@ def infer_on_stream(args):
             log.warning(str(e) + " for frame " + str(frame_count))
             continue
         # Display the resulting frame
-        
+        cv2.imshow('SSD_V2 On Rasspberry', cv2.resize(frame,(600,400)))
      
     end_inf = time.time() - start_inf
     log.info("\nTotal loading time: {}\nTotal inference time: {}\nFPS: {}".format(end_load, end_inf,frame_count/end_inf))

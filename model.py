@@ -23,10 +23,9 @@ class Model:
             raise ValueError("Could not Initialise the network. Have you enterred the correct model path?")
 
         self.input_name = next(iter(self.model.inputs))
-        print(self.input_name)
+        
         self.input_shape = self.model.inputs[self.input_name].shape
-        print(self.input_shape)
-        exit()
+        
         self.output_name = next(iter(self.model.outputs))
         self.output_shape = self.model.outputs[self.output_name].shape
 
