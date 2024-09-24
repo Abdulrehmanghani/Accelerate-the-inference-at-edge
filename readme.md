@@ -3,7 +3,6 @@ Recent developments in deep learning have observed remarkable performance in the
 
 ## Output
 ![output_gif](https://github.com/Abdulrehmanghani/Accelerate-the-inference-at-edge/blob/main/output.gif)
-<img src="(https://github.com/Abdulrehmanghani/Accelerate-the-inference-at-edge/blob/main/output.gif)" alt="Your GIF" width="640" height="480">
 
 ## Raspberry Pi configration for the edge inference
 
