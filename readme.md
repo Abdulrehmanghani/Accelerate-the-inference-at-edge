@@ -1,7 +1,7 @@
 # Accelerate the inference at edge
 Recent developments in deep learning have observed remarkable performance in the AI industry with highly accurate computer vision models and it is observed that computational power is getting cheaper. But data-driven decisions in deep learning and cloud computing based systems have limitations in deployment at edge devices in real-world scenarios. Since we cannot bring edge devices to the data-centers, We can't deploy a server/GPU at the edge where we can deploy our applications at low cost embedded devices, so we need to bring AI to the edge on low cost embedded devices.
-![Output GIF]([https://github.com/username/repository/raw/main/videos/demo.gif](https://github.com/Abdulrehmanghani/Accelerate-the-inference-at-edge/blob/main/output.gif
-))
+
+![Output GIF](https://github.com/Abdulrehmanghani/Accelerate-the-inference-at-edge/blob/main/output.gif)
 ## Raspberry Pi configration for the edge inference
 
 ```
